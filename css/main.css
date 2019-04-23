@@ -1,0 +1,201 @@
+a.nav-link.inactiv {
+    background-color:#c4c4c4;
+    border-left: 2px solid #6c757d;
+    border-right: 2px solid #6c757d;
+    border-bottom: 1px solid #6c757d;
+    border-top: 4px solid #6c757d;
+    border-top-left-radius:12px;
+    border-top-right-radius:12px;
+}
+
+a.nav-link.inactiv:hover {
+    border-left: 2px solid #6c757d;
+    border-right: 2px solid #6c757d;
+    border-bottom: 1px solid #6c757d;
+    border-top: 4px solid #6c757d;
+    border-top-left-radius:12px;
+    border-top-right-radius:12px;
+}
+
+a.nav-link.activ, a.nav-link.activ:hover {
+    background-color:#c4c4c4;
+    border-left: 2px solid #c4c4c4;
+    border-right: 2px solid #c4c4c4;
+    border-bottom: 2px solid #c4c4c4;
+    border-top: 4px solid #c4c4c4;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+li.nav-item {
+   width:50%;
+   border-top-left-radius:12px;
+   border-top-right-radius:12px;
+}
+
+body {
+    background-color:#c4c4c4;
+}
+
+img {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    height: 93%;
+}
+
+img.icons {
+    display: block;
+    max-width:210px;
+    max-height:80px;
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px;
+}
+
+a.nav-link.activ img.icons {
+    background-color: #17a2b8;
+    border-radius: 6px;
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.25) !important;
+    padding:16px;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 10%;
+    background-color:#baafaf;
+    border-top: #8e8e8e solid 0.1px;
+}
+
+div.player_card {
+    height:500px;   
+}
+
+div.card {
+    margin:80px;
+    margin-top:60px;
+    border: 2px solid #25abc0;
+    border-radius: 0px;
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.25) !important;
+}
+
+div.card.song {
+    background-color:#25abc0;
+    color:white;
+    font-family: 'kanit', sans-serif;
+}
+
+div.spacer {
+    width: 24%;
+    display:inline-block;
+    margin:40px;
+    height:140px;
+}
+
+div.card-body:nth-child(2) {
+    height: 400px;
+}
+
+div.card-body:nth-child(3) {
+    border-top: 2px dotted #13899b;
+    height: 200px;
+}
+
+.card-img {
+    background-color:#25abc0;
+    width:70%;
+    height:60%;
+    margin-top:15%;
+    padding-left:15px;
+    padding-right:15px;
+    border-radius: 0px;
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.25) !important;
+}
+
+.card-container {
+    margin-top:50px;
+    margin-left:140px;
+}
+
+div.col-md-8 {
+  height: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center 
+}
+
+div.col-md-8 div {
+  margin: 0 
+}
+
+#controls {
+    background-color:#e7c1ff;
+    width:100%;
+    height:95%;
+    border-radius:90px;
+    box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.25) !important;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+#controls a {
+    margin: 0;
+    margin-left:10%;
+    margin-right:10%;
+    background-color:#25abc0;
+    border-radius: 8px; 
+}
+
+#controls a:hover{
+    background-color:#1d7a89
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #baafaf;
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+.sidenav .mButton{
+    border: none;
+    text-decoration: none;
+    margin:0;
+    margin-right: 10%;
+    margin-left: 10%;
+    font-size: 25pz;
+    background-color: #25abc0;
+    align-items: center;
+    justify-items: center;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+.sidenav .mButton:hover{
+    background-color:#1d7a89
+}
+
+
+
+.sidenav .closebtn{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
