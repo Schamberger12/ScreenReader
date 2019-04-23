@@ -3,7 +3,7 @@ a.nav-link.inactiv {
     border-left: 2px solid #6c757d;
     border-right: 2px solid #6c757d;
     border-bottom: 1px solid #6c757d;
-    border-top: 4px solid #6c757d;
+    border-top: 4px solid #d9e7f3;
     border-top-left-radius:12px;
     border-top-right-radius:12px;
 }
@@ -56,7 +56,7 @@ img.icons {
 }
 
 a.nav-link.activ img.icons {
-    background-color: #17a2b8;
+    background-color: #baafaf; /*color for the nav button, waiting for vote*/
     border-radius: 6px;
     box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.25) !important;
     padding:16px;
@@ -78,13 +78,13 @@ div.player_card {
 div.card {
     margin:80px;
     margin-top:60px;
-    border: 2px solid #25abc0;
+    border: 2px solid #000000;
     border-radius: 0px;
     box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.25) !important;
 }
 
 div.card.song {
-    background-color:#25abc0;
+    background-color:#515e63;
     color:white;
     font-family: 'kanit', sans-serif;
 }
@@ -101,12 +101,12 @@ div.card-body:nth-child(2) {
 }
 
 div.card-body:nth-child(3) {
-    border-top: 2px dotted #13899b;
+    border-top: 2px dotted #515e63;
     height: 200px;
 }
 
 .card-img {
-    background-color:#25abc0;
+    background-color:#baafaf; /*color for the buttons on each card for the library, waiting for vote*/
     width:70%;
     height:60%;
     margin-top:15%;
@@ -133,7 +133,7 @@ div.col-md-8 div {
 }
 
 #controls {
-    background-color:#e7c1ff;
+    background-color:#baafaf;
     width:100%;
     height:95%;
     border-radius:90px;
@@ -147,7 +147,7 @@ div.col-md-8 div {
     margin: 0;
     margin-left:10%;
     margin-right:10%;
-    background-color:#25abc0;
+    background-color:#708090;
     border-radius: 8px; 
 }
 
@@ -177,7 +177,7 @@ div.col-md-8 div {
     margin-right: 10%;
     margin-left: 10%;
     font-size: 25pz;
-    background-color: #25abc0;
+    background-color: #708090;
     align-items: center;
     justify-items: center;
     display: inline-block;
